@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tangsel Sehat</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lihat_daftar_puskesmas">Daftar Puskesmas</string>
+
+    <string name="title_activity_lihat_tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="header_tentang_aplikasi">Aplikasi Ini Dibuat untuk Memenuhi Syarat Tugas  Mata Kuliah Metodologi Penelitian</string>
+    <string name="unpam">Logo Unpam</string>
+    <string name="title_activity_lihat_puskesmas">Puskesmas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_lihat_peta">Lihat Peta</string>
+    <string name="title_activity_lihat_daftar_rumah_sakit">Daftar Rumah Sakit</string>
+    <string name="title_activity_lihat_rumah_sakit">Rumah Sakit</string>
+</resources>

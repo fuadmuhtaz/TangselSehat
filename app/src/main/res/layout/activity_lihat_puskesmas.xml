@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView android:id="@+id/foto_puskesmas"
+            android:layout_width="300sp"
+            android:layout_height="200sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"/>
+        <TextView android:id="@+id/nama_puskesmas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"/>
+        <TextView android:id="@+id/alamat_puskesmas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fasilitas"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="10sp"/>
+        <LinearLayout android:id="@+id/fasilitas_puskesmas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10sp">
+        </LinearLayout>
+        <Button android:id="@+id/lihat_peta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Lihat Peta"
+            android:onClick="lihatPeta"/>
+    </LinearLayout>
+</ScrollView>
